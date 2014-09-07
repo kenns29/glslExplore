@@ -1,0 +1,69 @@
+#version 150
+
+in vec3 N;
+in vec3 v;    
+
+uniform sampler2D color_texture;
+uniform vec4 color1 = vec4(0.0, 0.0, 1.0, 1.0);
+uniform vec4 color2 = vec4(0.3, 0.7, 0.5, 1.0);
+uniform vec4 AvgColor = vec4(0.5, 0.5, 0.5, 0.5);
+uniform float Frequency = 0.5;
+
+out vec4 colorOut;
+
+
+void main (void)  
+{  
+
+   //Ross: Here's a hint on how to get the light source position
+   vec3 light = gl_LightSource[0].position.xyz;   
+   vec3 L = normalize(light - v.xyz);
+   
+   //Ross: V is the view direction vector and we are in Eye Coordinates, so EyePos is (0,0,0)  
+   vec3 V = normalize(vec3(-v.x, -v.y, -v.z));
+   
+   //calculate Ambient Term:  
+   vec4 amb = gl_FrontLightProduct[0].ambient;
+   amb = clamp(amb, 0.0, 1.0);
+   
+   //calculate Diffuse Term:  
+   vec4 dif = max( dot(N, L), 0.0) * gl_FrontLightProduct[0].diffuse;
+   dif = clamp(dif, 0.0, 1.0);
+   
+   //calculate Specular Term:
+   float alpha = gl_FrontMaterial.shininess;
+   vec3 R = normalize(2 * dot(L, N) * N - L);
+   vec4 spec = pow( max(dot(V, R), 0.0), alpha) * gl_FrontLightProduct[0].specular;
+   spec = clamp(spec, 0.0, 1.0);
+   
+   // write Total Color:  
+   vec4 color = gl_FrontLightModelProduct.sceneColor+amb + spec + dif;
+   color.a = 1.0;
+   
+   //create the checker board
+   //This part of code is taken from the red book
+   vec3 boardColor;
+   vec2 fw = fwidth(gl_TexCoord[0].st);
+   vec2 fuzz = fw * Frequency * 2.0;
+   
+   float fuzzMax = max(fuzz.s, fuzz.t);
+   
+   vec2 checkPos = fract(gl_TexCoord[0].st * Frequency);
+   
+   if (fuzzMax < 0.5){
+	vec2 p = smoothstep(vec2(0.5), fuzz+vec2(0.5), checkPos) + (1.0 - smoothstep(vec2(0.0), fuzz, checkPos));
+	boardColor = mix(color1.rgb, color2.rgb, p.x * p.y + (1.0 - p.x) * (1.0 - p.y));
+	
+	boardColor = mix(boardColor, AvgColor.rgb, smoothstep(0.125, 0.5, fuzzMax));
+   }
+   else{
+	boardColor = AvgColor.rgb;
+   }
+  
+   //Ross: If I want to sample my texture, I need to sample it at the (s,t) coordinate of my texture coordinate  
+   gl_FragColor = vec4(color.rgb + boardColor, 1.0);
+   //Ross: Generic color output is now making all geometry blue
+   //colorOut = color1;
+
+
+}    

@@ -1,0 +1,260 @@
+﻿Build started 11/10/2013 9:44:11 PM.
+     1>Project "D:\My Documents\kenns\Documents\Schoolwork\Graduate\CSE598-Computer Graphic\Assignment3\Assignment3\TemplateProject.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TemplateProject.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         d:\Program\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ifreeglut/include /Iglew/include /Icwc/include /IIlmBase\inc\Imath /IIlmBase\inc\Iex /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D FREEGLUT_STATIC /D GLEW_STATIC /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(98): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(99): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(109): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(110): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(113): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(114): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(180): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(180): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(209): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(209): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(209): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(209): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(209): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(209): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(209): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(234): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(234): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(234): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(234): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(234): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(234): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(234): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(234): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(234): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(234): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(234): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(234): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(234): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(243): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(243): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(243): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(243): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(243): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(243): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(243): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(243): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(243): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(243): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(243): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(261): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(261): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(261): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(261): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(261): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(261): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(261): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(261): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(261): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(261): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(269): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(269): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(269): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(269): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(269): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(269): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(269): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(269): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(269): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(269): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(286): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(286): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(286): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(294): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(294): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(294): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(294): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(294): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(294): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(294): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(294): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(294): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(328): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(328): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(337): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(339): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(339): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(346): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(346): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(346): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(350): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(350): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(362): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(362): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(370): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(370): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(526): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(535): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(535): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(544): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(544): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(551): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(551): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(560): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(560): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(560): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(568): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(568): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(568): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(576): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(576): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(576): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(584): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(585): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(587): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(587): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(587): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(594): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(595): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(597): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(597): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(597): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(604): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(605): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(607): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(607): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(607): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(614): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(615): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(617): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(617): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(617): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(625): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(633): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(633): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(635): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(635): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(635): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(643): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(643): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(643): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(652): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(652): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(652): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(716): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(722): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(772): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(809): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(812): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(812): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(815): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(829): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(829): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(830): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(830): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(838): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(845): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(845): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(845): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(846): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(846): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(846): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(852): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(862): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(862): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(862): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(873): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(873): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(991): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(1035): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my documents\kenns\documents\schoolwork\graduate\cse598-computer graphic\assignment3\assignment3\main.cpp(1103): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+       Link:
+         d:\Program\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\TemplateProject.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TemplateProject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\TemplateProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\TemplateProject.lib" /MACHINE:X86 Debug\glew.obj
+         Debug\freeglut_callbacks.obj
+         Debug\freeglut_cursor.obj
+         Debug\freeglut_display.obj
+         Debug\freeglut_ext.obj
+         Debug\freeglut_font.obj
+         Debug\freeglut_font_data.obj
+         Debug\freeglut_gamemode.obj
+         Debug\freeglut_geometry.obj
+         Debug\freeglut_glutfont_definitions.obj
+         Debug\freeglut_init.obj
+         Debug\freeglut_joystick.obj
+         Debug\freeglut_main.obj
+         Debug\freeglut_menu.obj
+         Debug\freeglut_misc.obj
+         Debug\freeglut_overlay.obj
+         Debug\freeglut_state.obj
+         Debug\freeglut_stroke_mono_roman.obj
+         Debug\freeglut_stroke_roman.obj
+         Debug\freeglut_structure.obj
+         Debug\freeglut_teapot.obj
+         Debug\freeglut_videoresize.obj
+         Debug\freeglut_window.obj
+         Debug\glApplication.obj
+         Debug\glsl.obj
+         Debug\glutwindow.obj
+         Debug\glWindow.obj
+         Debug\main.obj
+         Debug\perlin.obj
+         Debug\stb_image.obj
+     1>glew.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         TemplateProject.vcxproj -> D:\My Documents\kenns\Documents\Schoolwork\Graduate\CSE598-Computer Graphic\Assignment3\Assignment3\Debug\TemplateProject.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Debug\TemplateProject.exe;#1" /manifest Debug\TemplateProject.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\TemplateProject.unsuccessfulbuild".
+         Touching "Debug\TemplateProject.lastbuildstate".
+     1>Done Building Project "D:\My Documents\kenns\Documents\Schoolwork\Graduate\CSE598-Computer Graphic\Assignment3\Assignment3\TemplateProject.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.51

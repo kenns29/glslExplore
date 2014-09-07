@@ -1,0 +1,26 @@
+scene 1:
+ 1) both front and back of the dog's body was mapped by two faces, the body part use texture_vertexshader.txt and texture_fragmentshader.txt. Rotate the dog use either 'K' or 'L'.
+
+ 2) the leg part of dog use stripe_vertexshader.txt and stripe_fragmentshader.txt, initially
+
+ 3) the rest part of the dog use vertexshader.txt and fragmentshader.txt
+
+ 4) the ground plane use board_vertexshader.txt and board_fragmentshader.txt, inially
+
+ 5) initially the leg has stripes and the ground plane is a checkerboard, press g to switch shaders for the leg and ground plane.
+
+scene 2:
+
+ 1) the dog is semi-transparent, rest of the scene not. The drawing order is torus->plane->dog
+
+ 2) if the dog is rotated, the transparency effect will be messed up. Rotate the dog to its original position to see the transparency.
+
+ 3) the scene use vertexshader.txt and fragmentshader.txt
+
+scene 3:
+
+ 1) the scene use texture_vertexshader.txt and texture_fragmentshader.txt
+
+ 2) press 't' to toggle betweeen wood texture and marble texture.
+
+ 3) press 'n' to turn on bump mapping, must zoom in to see the result

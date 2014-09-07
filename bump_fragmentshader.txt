@@ -1,0 +1,44 @@
+#version 150
+
+in vec3 N;
+in vec3 v;    
+
+uniform sampler2D color_texture;
+uniform vec4 color1 = vec4(0.0, 0.0, 1.0, 1.0);
+uniform vec4 color2 = vec4(0.3, 0.7, 0.5, 1.0);
+ 
+out vec4 colorOut;
+
+void main (void)  
+{  
+   vec3 bumpNorm = normalize(N / fract(10*v.xyz));
+   //Ross: Here's a hint on how to get the light source position
+   vec3 light = gl_LightSource[0].position.xyz;   
+   vec3 L = normalize(light - v.xyz);
+  
+   //Ross: V is the view direction vector and we are in Eye Coordinates, so EyePos is (0,0,0)  
+   vec3 V = normalize(vec3(-v.x, -v.y, -v.z));
+   
+   //calculate Ambient Term:  
+   vec4 amb = gl_FrontLightProduct[0].ambient;
+   amb = clamp(amb, 0.0, 1.0);
+   
+   //calculate Diffuse Term:  
+   vec4 dif = max( dot(bumpNorm, L), 0.0) * gl_FrontLightProduct[0].diffuse;
+   dif = clamp(dif, 0.0, 1.0);
+   
+   //calculate Specular Term:
+   float alpha = gl_FrontMaterial.shininess;
+   vec3 R = normalize(2 * dot(L, bumpNorm) * bumpNorm - L);
+   vec4 spec = pow( max(dot(V, R), 0.0), alpha) * gl_FrontLightProduct[0].specular;
+   spec = clamp(spec, 0.0, 1.0);
+   
+   // write Total Color:  
+   vec4 color = amb + dif + spec;
+   color.a = 1.0;
+   //Ross: If I want to sample my texture, I need to sample it at the (s,t) coordinate of my texture coordinate  
+   vec4 texel = texture2D(color_texture, vec2(1.0, 1.0) * gl_TexCoord[0].st);
+   gl_FragColor = color + texel;
+   //Ross: Generic color output is now making all geometry blue
+   //colorOut = color1;
+}    
